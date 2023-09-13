@@ -15,14 +15,14 @@ const Home = () => {
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div className="max-w-xl ltr:sm:text-left rtl:sm:text-right">
-            <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white">
               Discover Nice Articles
               <strong className="block font-extrabold text-blue-600">
                 Here
               </strong>
             </h1>
 
-            <p className="mt-4 text-xs text-white">
+            <p className="mt-4 text-sm sm:text-base text-white">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
               illo tenetur fuga ducimus numquam ea! 
             </p>
@@ -34,14 +34,14 @@ const Home = () => {
 
               <a
                 href="/Form"
-                className="block w-full rounded bg-blue-500 px-12 py-3 text-sm font-medium text-white shadow hover:bg-white-600 focus:outline-none focus:ring active:bg-blue-400 sm:w-auto"
+                className="block w-full sm:w-auto rounded bg-blue-500 px-4 sm:px-6 py-2 sm:py-3 text-sm font-medium text-white shadow hover:bg-white-600 hover:text-white-500 focus:outline-none focus:ring active:bg-blue-400"
               >
                 Get Started
               </a>
 
               <a
                 href="#"
-                className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-black shadow hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
+                className="block w-full sm:w-auto rounded bg-white px-4 sm:px-6 py-2 sm:py-3 text-sm font-medium text-black shadow hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500"
               >
                 Learn More
               </a>
@@ -53,13 +53,13 @@ const Home = () => {
       {/* Articles */}
 
       <div className="mt-4">
-        <h2 className="text-center font-medium">Articles</h2>
+        <h2 className="text-center font-medium text-xl sm:text-2xl">Articles</h2>
 
-        <div className="flex gap-6 px-20 mt-5">
+        <div className="flex flex-col sm:flex-row gap-6 px-4 sm:px-6 md:px-10 lg:px-20 mt-5">
           {/* Related news card */}
           <Link
             to="/articlesdetails"
-            className="bg-white w-1/3 mt-2 p-4 rounded-xl flex flex-col gap-2"
+            className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
@@ -74,7 +74,7 @@ const Home = () => {
 
             <div className="ml-4 flex justify-between">
               <div className="bg-blue-100 rounded-2xl">
-                <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+                <p className="text-blue-400 text-xs px-2 sm:px-[0.7em] py-[0.25em] font-thin uppercase">
                   read more
                 </p>
               </div>
@@ -96,7 +96,7 @@ const Home = () => {
           {/* Related news card */}
           <Link
             to="/articlesDetails"
-            className="bg-white w-1/3 mt-2 p-4 rounded-xl flex flex-col gap-2"
+            className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
@@ -110,7 +110,7 @@ const Home = () => {
 
             <div className="ml-4 flex justify-between">
               <div className="bg-blue-100 rounded-2xl">
-                <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+                <p className="text-blue-400 text-xs px-2 sm:px-[0.7em] py-[0.25em] font-thin uppercase">
                   read more
                 </p>
               </div>
@@ -132,7 +132,7 @@ const Home = () => {
           {/* Related news card */}
           <Link
             to="/articlesDetails"
-            className="bg-white w-1/3 mt-2 p-4 rounded-xl flex flex-col gap-2"
+            className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
@@ -146,7 +146,7 @@ const Home = () => {
 
             <div className="ml-4 flex justify-between">
               <div className="bg-blue-100 rounded-2xl">
-                <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+                <p className="text-blue-400 text-xs px-2 sm:px-[0.7em] py-[0.25em] font-thin uppercase">
                   read more
                 </p>
               </div>
@@ -170,7 +170,7 @@ const Home = () => {
           {/* Related news card */}
           <Link
             to="/form"
-            className="bg-white w-1/3 mt-2 p-4 rounded-xl flex flex-col gap-2"
+            className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
@@ -185,7 +185,7 @@ const Home = () => {
 
             <div className="ml-4 flex justify-between">
               <div className="bg-blue-100 rounded-2xl">
-                <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+                <p className="text-blue-400 text-xs px-2 sm:px-[0.7em] py-[0.25em] font-thin uppercase">
                   read more
                 </p>
               </div>
@@ -207,7 +207,7 @@ const Home = () => {
           {/* Related news card */}
           <Link
             to="/form"
-            className="bg-white w-1/3 mt-2 p-4 rounded-xl flex flex-col gap-2"
+            className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
@@ -221,7 +221,7 @@ const Home = () => {
 
             <div className="ml-4 flex justify-between">
               <div className="bg-blue-100 rounded-2xl">
-                <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+                <p className="text-blue-400 text-xs px-2 sm:px-[0.7em] py-[0.25em] font-thin uppercase">
                  read more
                 </p>
               </div>
@@ -243,7 +243,7 @@ const Home = () => {
           {/* Related news card */}
           <Link
             to="/form"
-            className="bg-white w-1/3 mt-2 p-4 rounded-xl flex flex-col gap-2"
+            className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
@@ -257,7 +257,7 @@ const Home = () => {
 
             <div className="ml-4 flex justify-between">
               <div className="bg-blue-100 rounded-2xl">
-                <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+                <p className="text-blue-400 text-xs px-2 sm:px-[0.7em] py-[0.25em] font-thin uppercase">
                  read more
                 </p>
               </div>
@@ -280,7 +280,7 @@ const Home = () => {
           {/* Related news card */}
           <Link
             to="/form"
-            className="bg-white w-1/3 mt-2 p-4 rounded-xl flex flex-col gap-2"
+            className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
@@ -295,7 +295,7 @@ const Home = () => {
 
             <div className="ml-4 flex justify-between">
               <div className="bg-blue-100 rounded-2xl">
-                <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+                <p className="text-blue-400 text-xs px-2 sm:px-[0.7em] py-[0.25em] font-thin uppercase">
                   read more
                 </p>
               </div>
@@ -316,7 +316,7 @@ const Home = () => {
           {/* Related news card */}
           <Link
             to="/form"
-            className="bg-white w-1/3 mt-2 p-4 rounded-xl flex flex-col gap-2"
+            className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
@@ -330,7 +330,7 @@ const Home = () => {
 
             <div className="ml-4 flex justify-between">
               <div className="bg-blue-100 rounded-2xl">
-                <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+                <p className="text-blue-400 text-xs px-2 sm:px-[0.7em] py-[0.25em] font-thin uppercase">
                   read more
                 </p>
               </div>
@@ -351,7 +351,7 @@ const Home = () => {
           {/* Related news card */}
           <Link
             to="/form"
-            className="bg-white w-1/3 mt-2 p-4 rounded-xl flex flex-col gap-2"
+            className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
@@ -365,7 +365,7 @@ const Home = () => {
 
             <div className="ml-4 flex justify-between">
               <div className="bg-blue-100 rounded-2xl">
-                <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+                <p className="text-blue-400 text-xs px-2 sm:px-[0.7em] py-[0.25em] font-thin uppercase">
                  read more
                 </p>
               </div>
