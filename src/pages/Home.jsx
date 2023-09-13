@@ -58,7 +58,7 @@ const Home = () => {
         <div className="flex flex-col sm:flex-row gap-6 px-4 sm:px-6 md:px-10 lg:px-20 mt-5">
           {/* Related news card */}
           <Link
-            to="/articlesdetails"
+            to="/form"
             className="bg-white w-full sm:w-1/2 md:w-1/3 mt-4 p-4 rounded-xl flex flex-col gap-2"
           >
             {/* image container */}
