@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <div className="w-[15%] flex flex-col gap-3">
+    <div className="w-full md:w-[15%] flex flex-col gap-3">
       {/* profile */}
       <div className="bg-white p-6 flex flex-col gap-3 rounded-xl">
         <div className="w-[50px] h-[50px]  bg-black rounded-full">

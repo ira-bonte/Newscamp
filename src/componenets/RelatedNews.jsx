@@ -2,8 +2,8 @@ import { AiOutlineEye } from "react-icons/ai";
 
 const RelatedNews = () => {
   return (
-    <div className="w-1/4">
-      <div className="flex justify-between">
+    <div className=" w-full md:w-1/4">
+      <div className="flex flex-col md:flex-row md:justify-between ">
         <h2>Related News</h2>
         <button type="button" class="cursor-pointer ... text-xs text-gray-600 ">
            See All
@@ -12,9 +12,9 @@ const RelatedNews = () => {
 
       {/* list of related news */}
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 mt-4">
         {/* Related news card */}
-        <div className="bg-white mt-2 p-4 rounded-xl flex flex-col gap-2">
+        <div className="bg-white  p-4 rounded-xl flex flex-col gap-2">
           {/* image container */}
           <div className="bg-black w-full h-[150px] rounded-xl">
             <img
@@ -28,7 +28,7 @@ const RelatedNews = () => {
 
           <div className="ml-4 flex justify-between">
             <div className="bg-blue-100 rounded-2xl">
-              <p className="text-blue-400 text-xs px-[0.7em] py-[0.25em] font-thin uppercase">
+              <p className="text-blue-400 text-xs px-2 py-1 font-thin uppercase">
                 Read more
               </p>
             </div>
