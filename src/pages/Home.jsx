@@ -10,7 +10,7 @@ const Home = () => {
 
       {/* Hero section */}
 
-      <section className="relative bg-[url(../../../images/6.jpg)] bg-cover bg-center bg-no-repeat">
+      <section className="relative bg-[url(../../../images/3.jpg)] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
         <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
@@ -137,7 +137,7 @@ const Home = () => {
             {/* image container */}
             <div className="bg-black w-full h-[150px] rounded-xl">
               <img
-                src="https://pyxis.nymag.com/v1/imgs/9ea/c61/e850d92194479a80d3dbea9c95e7dbc2ab-donald-trump.1x.rsquare.w1400.jpg"
+                src="../../../images/6.jpg"
                 className="w-full h-full object-cover rounded-xl"
               />
             </div>
