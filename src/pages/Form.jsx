@@ -6,7 +6,7 @@ const Form = () => {
     <>   
      <Navbar />
      <div className='bg-black'>
-     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">LOGIN</h1>
+     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-black-500">LOGIN</h1>
      </div>
     <div className="min-h-screen flex items-center justify-center bg-gray-100 w-50">
     <form className="bg-white shadow-md rounded px-8 pt-3 pb-8 mb-4 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%]">
@@ -70,7 +70,7 @@ const Form = () => {
       <div className='flex items-center justify-between bg-aliceblue'>
          <div className="flex items-center justify-between">
             <a
-                href="/articlesdetails"
+                href="/articles"
                 className="bg-blue-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               >
                 Sign Up

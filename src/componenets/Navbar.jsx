@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
   return (
     <div className="bg-white flex flex-col md:flex-row justify-between items-center p-4 md:p-4 fixed w-full z-50">
       {/* Logo */}
@@ -10,13 +11,13 @@ const Navbar = () => {
 
       <div className="flex gap-2 md:gap-6 mt-4 md:mt-0">
          <button type="button" className="cursor-pointer text-sm md:text-base">
-           Top stories
+          <Link to="/form">Top stories</Link>          
         </button>
         <button type="button" className="cursor-pointer text-sm md:text-base">
-            Magazine
+        <Link to="/form">Magazine</Link>
         </button>
         <button type="button" className="cursor-pointer text-sm md:text-base">
-           Contact Us
+        <Link to="/articlesdetails">Contact Us</Link>
         </button>
       </div>
 

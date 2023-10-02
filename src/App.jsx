@@ -4,6 +4,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import ArticlesDetails from "./pages/ArticlesDetails";
 import Form from "./pages/Form";
+import Articles from "./pages/Articles";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/form" element={<Form />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/articles" element={<Articles />} />
         </Routes>
       </div>
     </>
