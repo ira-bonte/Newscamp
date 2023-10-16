@@ -5,9 +5,7 @@ const Form = () => {
   return (
     <>   
      <Navbar />
-     <div className='bg-black'>
-     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-black-500">LOGIN</h1>
-     </div>
+     {/* <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl x:text-6xl text-white-100">LOGIN FORM </h1> */}
     <div className="min-h-screen flex items-center justify-center bg-gray-100 w-50">
     <form className="bg-white shadow-md rounded px-8 pt-3 pb-8 mb-4 w-full sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%]">
       <div className="mb-4">

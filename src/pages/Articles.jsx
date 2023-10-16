@@ -6,8 +6,11 @@ import Navbar from '../componenets/Navbar';
 
 const Articles =()=> {
   return (
+    <div>
+
+   <div/>
  <div>
-   <Navbar />
+    <Navbar />
     <div className="mt-4">
         <h2 className="text-center font-medium text-xl sm:text-2xl">Articles</h2>
 
@@ -847,6 +850,7 @@ const Articles =()=> {
             </h2>
           </Link>
         </div>
+     </div>
      </div>
      </div>
      </div>
