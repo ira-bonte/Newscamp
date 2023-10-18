@@ -18,7 +18,7 @@ const RelatedNews = () => {
           {/* image container */}
           <div className="bg-black w-full h-[150px] rounded-xl">
             <img
-              src="../../../images/3.jpg"
+              src="https://www.thoughtco.com/thmb/o2xaDCaMW93CkSN0kVm53Rj5-Iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/BarackObama-799035cd446c443fb392110c01768ed0.jpg"
               alt="politics"
               className="w-full h-full object-cover rounded-xl"
             />
@@ -51,7 +51,7 @@ const RelatedNews = () => {
           {/* image container */}
           <div className="bg-black w-full h-[150px] rounded-xl">
             <img
-              src="../../../images/3.jpg"
+              src="https://www.thoughtco.com/thmb/o2xaDCaMW93CkSN0kVm53Rj5-Iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/BarackObama-799035cd446c443fb392110c01768ed0.jpg"
               className="w-full h-full object-cover rounded-xl"
             />
           </div>
@@ -83,7 +83,7 @@ const RelatedNews = () => {
           {/* image container */}
           <div className="bg-black w-full h-[150px] rounded-xl">
             <img
-              src="../../../images/3.jpg"
+              src="../../../images/7.jpg"
               className="w-full h-full object-cover rounded-xl"
             />
           </div>
